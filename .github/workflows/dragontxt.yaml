@@ -10,7 +10,7 @@ jobs:
         run: sudo apt-get install cowsay -y
       
       - name: Excute Cowsay CMD
-        run: cowsay -f dragon "run for cover, i am a Dragon"
+        run: cowsay -f dragon "run for cover, i am a Dragon" >> dragon.txt
 
       - name: Upload file to artifact
         uses: actions/upload-artifact@v3
