@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Donload dragon file
-        uses: actions/artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: dragon-text-file
 
