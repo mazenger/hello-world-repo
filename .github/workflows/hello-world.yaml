@@ -1,4 +1,4 @@
-name: hello world
+name: Dragon 
 "on": push
 jobs:
   dragon-job:
