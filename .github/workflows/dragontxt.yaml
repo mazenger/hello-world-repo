@@ -1,5 +1,5 @@
 name: Dragon 
-"on": push
+on: push
 jobs:
   dragon-job:
     runs-on: ubuntu-latest
